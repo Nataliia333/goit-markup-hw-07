@@ -1,0 +1,78 @@
+/*О НАС*/
+.us-list {
+    display: flex; 
+    justify-content: space-between;
+    }
+    
+    .us-list-item:not(:last-child) {
+    margin-right: 30px;
+    }
+    
+    .us-list-item {
+    width: 270px;
+    }
+    
+    .us-list-icon {
+        display: flex;
+        height: 120px;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--fon-color);
+        margin-bottom: 30px;
+    }
+    
+    .us-list-icon-svg {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-light-theme-color);
+    margin-bottom: 10px;
+    }
+    
+    .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--text-light-theme-color);
+    }
+    
+    /*.us-list-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--fon-color);
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    }
+    
+    .icon-antena::before {
+        background-image: url("../images/antenna.svg");
+    }
+    
+    .icon-clock::before {
+        background-image: url("../images/clock.svg");
+    }
+    
+    .icon-diagram::before {
+        background-image: url("../images/diagram.svg");
+    }
+    .icon-astronaut::before {
+        background-image: url("../images/diagram.svg");
+    }*/
+    
+    .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }

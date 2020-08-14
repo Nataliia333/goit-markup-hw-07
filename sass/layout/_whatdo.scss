@@ -1,0 +1,46 @@
+/*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
+.what {
+    padding-bottom: 94px;
+    }
+    
+    .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-light-theme-color);
+    margin-bottom: 50px;
+    }
+    
+    .we-do{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .we-title:not(:last-child) {
+    margin-right: 30px;
+    position: relative;
+    }
+    
+    .we-title {
+    position: relative;
+    }
+    
+    .text-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--title-dark-theme-color);
+        background-color: rgba(47, 48, 58, 0.8);
+        padding-top: 27px;
+        padding-bottom: 27px;
+    
+        position: absolute;
+        bottom: 0;
+        left:0;
+        width: 100%;
+    }
