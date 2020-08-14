@@ -11,10 +11,10 @@ html {
   }
 
 body {
-    background-color: var(--title-dark-theme-color);
-    font-family: var(--main-font);
+    background-color: $title-dark-theme-color;
+    font-family: $main-font;
     font-size: 14px;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
 }
 
 h1 {

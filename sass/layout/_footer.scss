@@ -1,12 +1,12 @@
 /*Футер*/
 
 .footer {
-    background: var(--footer-color);
+    background: $footer-color;
     height: 252px;
     }
     
     .footer .logo {
-      color: var(--title-dark-theme-color);
+      color: $title-dark-theme-color;
       width: 153px;
     }
     
@@ -35,7 +35,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     }
     
     .footer-list-linkm {
@@ -55,7 +55,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     margin-bottom: 20px;
     }
     
@@ -86,7 +86,7 @@
     .icon-social-list-footer {
     width: 20px;
     height: 20px;
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
     }
     
     .podpiska {
@@ -111,7 +111,7 @@
         line-height: 1.25;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-        background: var(--footer-color);
+        background: $footer-color;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
@@ -120,7 +120,7 @@
         width: 24px;
         height: 24px;
         margin-left: 10px;
-        fill: var(--title-dark-theme-color);   
+        fill: $title-dark-theme-color;   
     }
     
     .subscribe-button {
@@ -132,14 +132,14 @@
         padding-right: 28px;
         padding-top: 10px;
         padding-bottom: 10px;
-        font-family: var(--main-font);
+        font-family: $main-font;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
         cursor: pointer;
-        color: var(--title-dark-theme-color);
-        background-color: var(--accent-color);
+        color: $title-dark-theme-color;
+        background-color: $accent-color;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         border: none;
